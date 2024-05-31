@@ -14,7 +14,10 @@ from .views import (
     ManufacturerListView,
     ManufacturerCreateView,
     ManufacturerUpdateView,
-    ManufacturerDeleteView, DriverLicenseUpdateView, add_driver, remove_driver,
+    ManufacturerDeleteView,
+    DriverLicenseUpdateView,
+    add_driver,
+    remove_driver,
 )
 
 urlpatterns = [
